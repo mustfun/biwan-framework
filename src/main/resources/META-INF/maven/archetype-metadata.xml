@@ -1,0 +1,53 @@
+<archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+                      name="biwan-framework">
+<!--<requiredProperties>
+    <requiredProperty key="" >
+    <defaultValue/>
+    <validationRegex/>
+    </requiredProperty>
+</requiredProperties>-->
+
+<fileSets>
+<fileSet filtered="true" packaged="true" encoding="UTF-8">
+    <directory>src</directory>
+    <includes>
+        <include>**/*.java</include>
+    </includes>
+</fileSet>
+</fileSets>
+
+<modules>
+    <module id="${groupId}-business" dir="biwan-business" name="${groupId}-business" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+    <module id="${groupId}-dao" dir="biwan-dao" name="${groupId}-dao" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+    <module id="${groupId}-support" dir="biwan-support" name="${groupId}-support" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+</modules>
+
+</archetype-descriptor>
