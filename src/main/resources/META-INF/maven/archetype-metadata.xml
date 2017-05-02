@@ -8,20 +8,35 @@
     </requiredProperty>
 </requiredProperties>-->
 
-<fileSets>
-<fileSet filtered="true" packaged="true" encoding="UTF-8">
-    <directory>src</directory>
-    <includes>
-        <include>**/*.java</include>
-    </includes>
-</fileSet>
-</fileSets>
 
 <modules>
+
+    <module id="${groupId}-parent" dir="biwan-parent" name="${groupId}-parent" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+
+    <module id="${groupId}-biz" dir="biwan-biz" name="${groupId}-biz" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+
     <module id="${groupId}-business" dir="biwan-business" name="${groupId}-business" >
         <fileSets>
             <fileSet filtered="true" packaged="true" encoding="UTF-8">
-                <directory>src</directory>
+                <directory>src/main/java</directory>
                 <includes>
                     <include>**/*.java</include>
                 </includes>
@@ -31,7 +46,7 @@
     <module id="${groupId}-dao" dir="biwan-dao" name="${groupId}-dao" >
         <fileSets>
             <fileSet filtered="true" packaged="true" encoding="UTF-8">
-                <directory>src</directory>
+                <directory>src/main/java</directory>
                 <includes>
                     <include>**/*.java</include>
                 </includes>
@@ -41,7 +56,7 @@
     <module id="${groupId}-support" dir="biwan-support" name="${groupId}-support" >
         <fileSets>
             <fileSet filtered="true" packaged="true" encoding="UTF-8">
-                <directory>src</directory>
+                <directory>src/main/java</directory>
                 <includes>
                     <include>**/*.java</include>
                 </includes>
