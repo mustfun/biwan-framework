@@ -1,0 +1,116 @@
+<archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+                      name="biwan-framework">
+<!--<requiredProperties>
+    <requiredProperty key="" >
+    <defaultValue/>
+    <validationRegex/>
+    </requiredProperty>
+</requiredProperties>      可以自己在生成的时候加一些参数，然后这里就可以接收到了-->
+<requiredProperties>
+    <requiredProperty key="groupId">
+        <defaultValue>com.itar.soa</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="artifactId">
+        <defaultValue>product</defaultValue>
+    </requiredProperty>
+</requiredProperties>
+
+
+<modules>
+
+    <!--这里应该也可以用我们上面定义的artifactId-->
+    <module id="${rootArtifactId}-parent" dir="__rootArtifactId__-parent" name="${rootArtifactId}-parent" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+
+    <module id="${rootArtifactId}-biz" dir="__rootArtifactId__-biz" name="${rootArtifactId}-biz" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+
+    <module id="${rootArtifactId}-business" dir="__rootArtifactId__-business" name="${rootArtifactId}-business" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+    <module id="${rootArtifactId}-dao" dir="__rootArtifactId__-dao" name="${rootArtifactId}-dao" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+    <module id="${rootArtifactId}-support" dir="__rootArtifactId__-support" name="${rootArtifactId}-support" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+    <module id="${rootArtifactId}-config" dir="__rootArtifactId__-config" name="${rootArtifactId}-config" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+    <module id="${rootArtifactId}-facade" dir="__rootArtifactId__-facade" name="${rootArtifactId}-facade" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+    <module id="${rootArtifactId}-model" dir="__rootArtifactId__-model" name="${rootArtifactId}-model" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module><module id="${rootArtifactId}-test" dir="__rootArtifactId__-test" name="${rootArtifactId}-test" >
+        <fileSets>
+            <fileSet filtered="true" packaged="true" encoding="UTF-8">
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+    </module>
+</modules>
+
+</archetype-descriptor>
