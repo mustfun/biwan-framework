@@ -15,7 +15,7 @@
 	 	<appender-ref ref="ROOT_CONSOLE"/>
 	</logger>
 
-	<!--##### ORM #####-->
+	<!-- ORM -->
 
 	<!--默认logger名称 druid.sql.Datasource -->
 	<logger name="com.alibaba.druid.datasource" level="debug" additivity="false">
