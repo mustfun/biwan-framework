@@ -1,6 +1,6 @@
-package com.itar.soa.biwan.support.transcation;
+package ${groupId}.support.transcation;
 
-import com.itar.soa.biwan.support.config.MasterSlaveDataSourceConfig;
+import ${groupId}.support.config.MasterSlaveDataSourceConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

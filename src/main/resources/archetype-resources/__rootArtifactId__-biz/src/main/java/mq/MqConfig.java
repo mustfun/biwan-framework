@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.mq;
+package ${groupId}.mq;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

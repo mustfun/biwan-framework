@@ -1,7 +1,7 @@
-package com.itar.soa.biwan.facade;
+package ${groupId}.facade;
 
-import com.itar.soa.biwan.model.City;
-import com.itar.soa.biwan.support.result.BaseResult;
+import ${groupId}.model.City;
+import ${groupId}.support.result.BaseResult;
 
 /**
  * Created by dengzhiyuan on 2017/4/6.

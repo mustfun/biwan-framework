@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.config.shardingDatabase;
+package ${groupId}.support.config.shardingDatabase;
 
 import com.dangdang.ddframe.rdb.sharding.api.ShardingDataSourceFactory;
 import com.dangdang.ddframe.rdb.sharding.api.rule.DataSourceRule;
@@ -6,8 +6,8 @@ import com.dangdang.ddframe.rdb.sharding.api.rule.ShardingRule;
 import com.dangdang.ddframe.rdb.sharding.api.rule.TableRule;
 import com.dangdang.ddframe.rdb.sharding.api.strategy.database.DatabaseShardingStrategy;
 import com.dangdang.ddframe.rdb.sharding.api.strategy.table.TableShardingStrategy;
-import com.itar.soa.biwan.support.sharding.ModuloDatabaseShardingAlgorithm;
-import com.itar.soa.biwan.support.sharding.ModuloTableShardingAlgorithm;
+import ${groupId}.support.sharding.ModuloDatabaseShardingAlgorithm;
+import ${groupId}.support.sharding.ModuloTableShardingAlgorithm;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

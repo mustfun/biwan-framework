@@ -1,6 +1,6 @@
-package com.itar.soa.biwan.support.config;
+package ${groupId}.support.config;
 
-import com.itar.soa.biwan.support.config.shardingDatabase.ShardingDataSouceConfig;
+import ${groupId}.support.config.shardingDatabase.ShardingDataSouceConfig;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;

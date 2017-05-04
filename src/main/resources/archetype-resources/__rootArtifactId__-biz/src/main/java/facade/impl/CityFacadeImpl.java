@@ -1,9 +1,9 @@
-package com.itar.soa.biwan.facade.impl;
+package ${groupId}.facade.impl;
 
-import com.itar.soa.biwan.facade.CityFacade;
-import com.itar.soa.biwan.model.City;
-import com.itar.soa.biwan.service.CityService;
-import com.itar.soa.biwan.support.result.BaseResult;
+import ${groupId}.facade.CityFacade;
+import ${groupId}.model.City;
+import ${groupId}.service.CityService;
+import ${groupId}.support.result.BaseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;

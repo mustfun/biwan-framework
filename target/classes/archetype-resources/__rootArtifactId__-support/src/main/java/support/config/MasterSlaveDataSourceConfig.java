@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.config;
+package ${groupId}.support.config;
 
 import com.dangdang.ddframe.rdb.sharding.api.MasterSlaveDataSourceFactory;
 import com.dangdang.ddframe.rdb.sharding.api.ShardingDataSourceFactory;

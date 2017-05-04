@@ -1,7 +1,7 @@
-package com.itar.soa.biwan.facade;
+package ${groupId}.facade;
 
-import com.itar.soa.biwan.model.Order;
-import com.itar.soa.biwan.support.result.BaseResult;
+import ${groupId}.model.Order;
+import ${groupId}.support.result.BaseResult;
 
 import java.util.List;
 

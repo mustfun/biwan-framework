@@ -1,6 +1,6 @@
-package com.itar.soa.biwan.support.config.shardingDatabase;
+package ${groupId}.support.config.shardingDatabase;
 
-import com.itar.soa.biwan.support.config.BaseDruidConfig;
+import ${groupId}.support.config.BaseDruidConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.properties.ConfigurationProperties;

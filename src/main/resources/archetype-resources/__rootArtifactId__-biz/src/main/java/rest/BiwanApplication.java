@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.rest;
+package ${groupId}.rest;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

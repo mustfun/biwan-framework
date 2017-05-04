@@ -1,4 +1,4 @@
-package com.itar.soa.biwan;
+package ${groupId};
 
 /**
  * Hello world!

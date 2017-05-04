@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.web;
+package ${groupId}.support.web;
 
 import com.alibaba.fastjson.parser.Feature;
 import com.alibaba.fastjson.serializer.SerializerFeature;

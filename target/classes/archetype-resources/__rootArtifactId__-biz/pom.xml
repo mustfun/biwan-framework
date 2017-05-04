@@ -3,7 +3,7 @@
     <parent>
         <artifactId>${rootArtifactId}-parent</artifactId>
         <groupId>${groupId}</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>${version}</version>
         <relativePath>../${rootArtifactId}-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -22,7 +22,7 @@
         <dependency>
             <groupId>${groupId}</groupId>
             <artifactId>${rootArtifactId}-service</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

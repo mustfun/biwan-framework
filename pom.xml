@@ -22,4 +22,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <!--发布用-->
+  <distributionManagement>
+    <repository>
+      <id>local-maven-releases</id>
+      <name>Nexus Release Repository</name>
+      <url>http://localhost:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>local-maven-snapshots</id>
+      <name>Nexus Snapshot Repository</name>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>

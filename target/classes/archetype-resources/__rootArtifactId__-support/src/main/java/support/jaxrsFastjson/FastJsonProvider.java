@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.jaxrsFastjson;
+package ${groupId}.support.jaxrsFastjson;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.ParserConfig;

@@ -1,10 +1,10 @@
-package com.itar.soa.biwan.facade.impl;
+package ${groupId}.facade.impl;
 
 import com.alibaba.fastjson.JSONArray;
-import com.itar.soa.biwan.facade.OrderFacade;
-import com.itar.soa.biwan.model.Order;
-import com.itar.soa.biwan.service.OrderService;
-import com.itar.soa.biwan.support.result.BaseResult;
+import ${groupId}.facade.OrderFacade;
+import ${groupId}.model.Order;
+import ${groupId}.service.OrderService;
+import ${groupId}.support.result.BaseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,6 +1,6 @@
-package com.itar.soa.biwan.dao.mapper;
+package ${groupId}.dao.mapper;
 
-import com.itar.soa.biwan.model.City;
+import ${groupId}.model.City;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper //这个注解会被注册为一个实现类，但是需要sqlSessionFactory，但是这里的sqlSessionFactory我们没有给他指认，所以会是默认的，我们需要给他分库后的

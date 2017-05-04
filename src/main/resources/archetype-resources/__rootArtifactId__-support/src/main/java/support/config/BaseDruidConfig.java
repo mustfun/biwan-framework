@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.config;
+package ${groupId}.support.config;
 
 
 /**

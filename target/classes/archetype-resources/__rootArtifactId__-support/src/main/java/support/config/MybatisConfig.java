@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.config;
+package ${groupId}.support.config;
 
 import com.itar.soa.biwan.support.config.shardingDatabase.ShardingDataSouceConfig;
 import org.apache.ibatis.annotations.Mapper;

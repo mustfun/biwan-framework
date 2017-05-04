@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.sharding;
+package ${groupId}.support.sharding;
 
 import com.dangdang.ddframe.rdb.sharding.api.ShardingValue;
 import com.dangdang.ddframe.rdb.sharding.api.strategy.table.SingleKeyTableShardingAlgorithm;

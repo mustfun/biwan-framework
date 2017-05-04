@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.result;
+package ${groupId}.support.result;
 
 import java.io.Serializable;
 

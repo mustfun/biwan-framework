@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.config;
+package ${groupId}.support.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

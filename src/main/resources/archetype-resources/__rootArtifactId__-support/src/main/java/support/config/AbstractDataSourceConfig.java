@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.config;
+package ${groupId}.support.config;
 
 import com.alibaba.druid.filter.logging.Slf4jLogFilter;
 import com.alibaba.druid.pool.DruidDataSource;

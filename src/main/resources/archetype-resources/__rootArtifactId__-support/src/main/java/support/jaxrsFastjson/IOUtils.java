@@ -1,4 +1,4 @@
-package com.itar.soa.biwan.support.jaxrsFastjson;
+package ${groupId}.support.jaxrsFastjson;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

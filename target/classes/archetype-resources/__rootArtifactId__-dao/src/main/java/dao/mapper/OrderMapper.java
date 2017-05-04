@@ -1,6 +1,6 @@
-package com.itar.soa.biwan.dao.mapper;
+package ${groupId}.dao.mapper;
 
-import com.itar.soa.biwan.model.Order;
+import ${groupId}.model.Order;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
