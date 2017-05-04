@@ -28,7 +28,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>
@@ -45,7 +45,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>
@@ -62,7 +62,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>
@@ -78,7 +78,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>
@@ -94,7 +94,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>
@@ -110,7 +110,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>
@@ -126,7 +126,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>
@@ -142,7 +142,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>
@@ -158,7 +158,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>
@@ -173,7 +173,7 @@
                     <include>**/*.java</include>
                 </includes>
             </fileSet>
-            <fileSet filtered="false" encoding="UTF-8" packaged="false">
+            <fileSet filtered="true" encoding="UTF-8" packaged="false">
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.**</include>

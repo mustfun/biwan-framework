@@ -11,7 +11,7 @@
 		</encoder>
 	</appender>
 	
-	<logger name="${groupId}" level="debug" additivity="false">
+	<logger name="${package}" level="debug" additivity="false">
 	 	<appender-ref ref="ROOT_CONSOLE"/>
 	</logger>
 
