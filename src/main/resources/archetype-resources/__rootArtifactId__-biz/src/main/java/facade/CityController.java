@@ -6,7 +6,7 @@ import ${groupId}.support.result.BaseResult;
 /**
  * Created by dengzhiyuan on 2017/4/6.
  */
-public interface CityFacade {
+public interface CityController {
 
     BaseResult<City> getCity(Integer id);
 
