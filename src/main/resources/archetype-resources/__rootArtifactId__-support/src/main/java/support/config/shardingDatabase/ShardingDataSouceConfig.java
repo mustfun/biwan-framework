@@ -23,7 +23,7 @@ import java.util.Map;
  * 分库分表的数据库配置
  *
  */
-@Configuration
+//@Configuration
 @AutoConfigureAfter(value = {OrderOneDataSourceConfig.class,OrderZeroDataSourceConfig.class})
 public class ShardingDataSouceConfig {
 

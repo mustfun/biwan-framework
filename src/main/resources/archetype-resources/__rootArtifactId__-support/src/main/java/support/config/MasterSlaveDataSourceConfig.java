@@ -24,7 +24,7 @@ import java.util.Map;
 /**
  * Created by dengzhiyuan on 2017/4/25.
  */
-//@Configuration  本分支sharding-jdbc-4测试分库分表，读写分离先去除
+@Configuration  //本分支sharding-jdbc-4测试分库分表，读写分离先去除
 @AutoConfigureAfter(value = {MasterDataSourceConfig.class,SlaveDataSourceConfig.class})
 public class MasterSlaveDataSourceConfig {
 

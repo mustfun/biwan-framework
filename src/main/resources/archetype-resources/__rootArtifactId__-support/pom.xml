@@ -69,10 +69,10 @@
             <artifactId>sharding-jdbc-core</artifactId>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.paypal.springboot</groupId>
             <artifactId>resteasy-spring-boot-starter</artifactId>
-        </dependency>
+        </dependency>-->
 
         <dependency>
         <groupId>com.alibaba</groupId>

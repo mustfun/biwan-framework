@@ -35,12 +35,12 @@ import javax.sql.DataSource;
 @ImportResource("classpath:/mybatis/spring-mybatis.xml")
 
 //会去扫描mapper下面的文件夹，已经配置在了application.properties中，所以也不是很需要
-//@MapperScan(basePackages = "com.itar.soa.biwan.mapper")
+//@MapperScan(basePackages = "${groupId}.mapper")
 
 
 @Configuration
-//@AutoConfigureAfter(MasterSlaveDataSourceConfig.class)  //读写分离的时候请打开
-@AutoConfigureAfter(ShardingDataSouceConfig.class) // 分库分表的时候请打开
+@AutoConfigureAfter(MasterSlaveDataSourceConfig.class)  //读写分离的时候请打开
+//@AutoConfigureAfter(ShardingDataSouceConfig.class) // 分库分表的时候请打开
 //@MapperScan()不用这种方式
 public class MybatisConfig {
 
