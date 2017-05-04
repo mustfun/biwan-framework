@@ -11,7 +11,7 @@
 		</encoder>
 	</appender>
 	
-	<logger name="com.itar.soa.biwan" level="debug" additivity="false">
+	<logger name="${groupId}" level="debug" additivity="false">
 	 	<appender-ref ref="ROOT_CONSOLE"/>
 	</logger>
 

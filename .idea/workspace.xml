@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e52bc51-f2c7-43dc-8fa4-84b47db72aa6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/jaxrsFastjson/FastJsonConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/jaxrsFastjson/FastJsonProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/jaxrsFastjson/FastJsonType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/jaxrsFastjson/IOUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/jaxrsFastjson/FastJsonConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/jaxrsFastjson/FastJsonProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/jaxrsFastjson/FastJsonType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/jaxrsFastjson/IOUtils.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-config/src/main/resources/config/application-dev.properties" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-config/src/main/resources/config/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-config/src/main/resources/logback-test.xml" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-config/src/main/resources/logback-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-config/src/main/resources/mybatis/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-config/src/main/resources/mybatis/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-dao/src/main/resources/mybatis/mapper/cityMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-dao/src/main/resources/mybatis/mapper/cityMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-dao/src/main/resources/mybatis/mapper/orderMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-dao/src/main/resources/mybatis/mapper/orderMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/pom.xml" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MasterDataSourceConfig.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MasterDataSourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MasterSlaveDataSourceConfig.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MasterSlaveDataSourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MybatisConfig.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MybatisConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/OrderOneDataSourceConfig.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/OrderOneDataSourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/OrderZeroDataSourceConfig.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/OrderZeroDataSourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/ShardingDataSouceConfig.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/ShardingDataSouceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-config/src/main/resources/config/application-dev.properties" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-config/src/main/resources/config/application-dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-config/src/main/resources/logback-test.xml" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-config/src/main/resources/logback-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-config/src/main/resources/mybatis/generatorConfig.xml" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-config/src/main/resources/mybatis/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-dao/src/main/resources/mybatis/mapper/cityMapper.xml" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-dao/src/main/resources/mybatis/mapper/cityMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-dao/src/main/resources/mybatis/mapper/orderMapper.xml" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-dao/src/main/resources/mybatis/mapper/orderMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/pom.xml" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MasterDataSourceConfig.java" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MasterDataSourceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MasterSlaveDataSourceConfig.java" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MasterSlaveDataSourceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MybatisConfig.java" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MybatisConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/OrderOneDataSourceConfig.java" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/OrderOneDataSourceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/OrderZeroDataSourceConfig.java" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/OrderZeroDataSourceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/ShardingDataSouceConfig.java" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/ShardingDataSouceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-config/src/main/resources/mybatis/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -96,8 +97,8 @@
       <file leaf-file-name="MybatisConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MybatisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            <state relative-caret-position="-138">
+              <caret line="42" column="66" lean-forward="false" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -117,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/ShardingDataSouceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -127,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -137,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+              <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -1814,7 +1815,7 @@
       <workItem from="1493369319736" duration="4821000" />
       <workItem from="1493705240018" duration="10358000" />
       <workItem from="1493788985563" duration="15797000" />
-      <workItem from="1493862532107" duration="6035000" />
+      <workItem from="1493862532107" duration="6405000" />
     </task>
     <task id="LOCAL-00001" summary="dfsdsfsdfs">
       <created>1493714342609</created>
@@ -1844,11 +1845,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493865770632</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="包名全部替换成变量了">
+      <created>1493868705017</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1493868705017</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37011000" />
+    <option name="totallyTimeSpent" value="37381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1874,7 +1882,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1949,7 +1957,8 @@
     <MESSAGE value="修正bug" />
     <MESSAGE value="修正bug2" />
     <MESSAGE value="framework构建完成，替换完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="framework构建完成，替换完成" />
+    <MESSAGE value="包名全部替换成变量了" />
+    <option name="LAST_COMMIT_MESSAGE" value="包名全部替换成变量了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2322,7 +2331,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/shardingDatabase/ShardingDataSouceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -2330,7 +2339,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -2338,7 +2347,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -2358,7 +2367,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-config/src/main/resources/mybatis/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -2391,8 +2400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__rootArtifactId__-support/src/main/java/support/config/MybatisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        <state relative-caret-position="-138">
+          <caret line="42" column="66" lean-forward="false" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
           <folding />
         </state>
       </provider>

@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 /**
  * Created by dengzhiyuan on 2017/4/26.
  */
-@Configuration
+//@Configuration
 @EnableConfigurationProperties(OrderOneDruidConfig.class)
 public class OrderOneDataSourceConfig extends AbstractDataSourceConfig {
 

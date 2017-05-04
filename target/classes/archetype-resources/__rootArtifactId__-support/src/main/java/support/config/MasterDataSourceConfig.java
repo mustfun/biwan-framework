@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 /**
  * Created by dengzhiyuan on 2017/4/6.
  */
-//@Configuration  本分支sharding-jdbc-4测试分库分表，读写分离先去除
+@Configuration  //本分支sharding-jdbc-4测试分库分表，读写分离先去除
 @EnableConfigurationProperties(DruidConfig.class)  //这个就相当于把DruidConfig也注入了，那边没有注入
 public class MasterDataSourceConfig extends AbstractDataSourceConfig{
 
