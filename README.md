@@ -18,3 +18,7 @@
 参考：http://maven.apache.org/archetype/archetype-models/archetype-descriptor/archetype-descriptor.html  
 
 参考：https://maven.apache.org/guides/mini/guide-creating-archetypes.html
+
+### 发布步骤
+1. mvn clean install
+2. mvn deploy
