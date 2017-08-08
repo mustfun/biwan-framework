@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>${rootArtifactId}-service</artifactId>
+            <artifactId>${rootArtifactId}-business</artifactId>
             <version>${version}</version>
         </dependency>
         <dependency>
