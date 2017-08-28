@@ -7,7 +7,7 @@
   <version>${version}</version>
   <packaging>pom</packaging>
 
-  <name>biwan-framework</name>
+  <name>${artifactId}</name>
   <url>http://www.myorganization.org</url>
 
   <dependencies>
