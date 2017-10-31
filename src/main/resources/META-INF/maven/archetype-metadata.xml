@@ -16,6 +16,16 @@
     </requiredProperty>
 </requiredProperties>
 
+    <!--这里生成一些特殊的文件，比如说.gitignore-->
+    <fileSets>
+        <fileSet filtered="false" packaged="false">
+            <directory/>
+            <includes>
+                <include>.*ignore</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+
 
 <modules>
 
