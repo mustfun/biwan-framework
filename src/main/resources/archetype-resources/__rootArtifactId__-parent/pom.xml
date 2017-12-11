@@ -78,6 +78,12 @@
                     <version>${springboot.version}</version>
                 </dependency>
 
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-cache</artifactId>
+                    <version>${springboot.version}</version>
+                </dependency>
+
                 <!--druid-->
                 <dependency>
                     <groupId>com.alibaba</groupId>
@@ -125,6 +131,19 @@
                     <version>1.2.30</version>
                 </dependency>
 
+                <!-- https://mvnrepository.com/artifact/org.ehcache/ehcache -->
+                <dependency>
+                    <groupId>javax.cache</groupId>
+                    <artifactId>cache-api</artifactId>
+                    <version>1.0.0</version>
+                </dependency>
+                <!--基于jsr 107实现，所以必须引入上面的-->
+                <dependency>
+                    <groupId>org.ehcache</groupId>
+                    <artifactId>ehcache</artifactId>
+                    <version>3.4.0</version>
+                </dependency>
+
                 <!-- https://mvnrepository.com/artifact/junit/junit -->
                 <dependency>
                     <groupId>junit</groupId>
@@ -138,7 +157,7 @@
 
 
     <properties>
-        <springboot.version>1.5.2.RELEASE</springboot.version>
+        <springboot.version>1.5.8.RELEASE</springboot.version>
         <junit.version>4.12</junit.version>
         <jdk.version>1.8</jdk.version>
     </properties>
