@@ -18,3 +18,8 @@
 参考：http://maven.apache.org/archetype/archetype-models/archetype-descriptor/archetype-descriptor.html  
 
 参考：https://maven.apache.org/guides/mini/guide-creating-archetypes.html
+
+
+### MORE
+- Resteasy版本脚手架请切换masterSlave分支  
+- Springmvc版本脚手架请切换spring-mvc-version分支
