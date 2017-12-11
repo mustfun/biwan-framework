@@ -11,7 +11,7 @@
     <artifactId>${artifactId}</artifactId>
     <packaging>pom</packaging>
 
-    <name>${artifactId}-parent</name>
+    <name>${artifactId}</name>
     <url>mustfun.github.io</url>
 
     <!--并非每个项目都能够这么简单的使用starter-parent的，这里我们根据需要来进行引入吧-->

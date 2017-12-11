@@ -1,6 +1,5 @@
 package ${groupId}.service.impl;
 
-import com.dangdang.ddframe.rdb.sharding.api.HintManager;
 import ${groupId}.dao.mapper.CityMapper;
 import ${groupId}.model.City;
 import ${groupId}.service.CityService;

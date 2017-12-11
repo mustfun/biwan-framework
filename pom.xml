@@ -4,11 +4,11 @@
 
   <groupId>com.itar.soa</groupId>
   <artifactId>biwan-framework</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>biwan-framework</name>
-  <url>http://maven.apache.org</url>
+  <url>mustfun.github.io</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
