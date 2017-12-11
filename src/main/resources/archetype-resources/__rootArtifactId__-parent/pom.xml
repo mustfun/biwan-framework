@@ -12,7 +12,7 @@
     <packaging>pom</packaging>
 
     <name>${artifactId}-parent</name>
-    <url>http://www.biwan.com</url>
+    <url>mustfun.github.io</url>
 
     <!--并非每个项目都能够这么简单的使用starter-parent的，这里我们根据需要来进行引入吧-->
     <!--<parent>
@@ -110,11 +110,12 @@
                 </dependency>
 
 
-                <!-- https://mvnrepository.com/artifact/com.dangdang/sharding-jdbc-core -->
+                <!--升级sharding-jdbc的版本解决与druid集合冲突问题,直接用2.0读写分离方便一点-->
+                <!-- https://mvnrepository.com/artifact/io.shardingjdbc/sharding-jdbc-core -->
                 <dependency>
-                    <groupId>com.dangdang</groupId>
+                    <groupId>io.shardingjdbc</groupId>
                     <artifactId>sharding-jdbc-core</artifactId>
-                    <version>1.4.2</version>
+                    <version>2.0.0</version>
                 </dependency>
 
                 <!---fastjson-->
@@ -122,13 +123,6 @@
                     <groupId>com.alibaba</groupId>
                     <artifactId>fastjson</artifactId>
                     <version>1.2.30</version>
-                </dependency>
-
-                <!--restEasy-->
-                <dependency>
-                    <groupId>com.paypal.springboot</groupId>
-                    <artifactId>resteasy-spring-boot-starter</artifactId>
-                    <version>2.3.0-RELEASE</version>
                 </dependency>
 
                 <!-- https://mvnrepository.com/artifact/junit/junit -->

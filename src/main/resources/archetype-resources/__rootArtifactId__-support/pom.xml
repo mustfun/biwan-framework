@@ -12,7 +12,7 @@
     <packaging>jar</packaging>
 
     <name>${artifactId}</name>
-    <url>http://maven.apache.org</url>
+    <url>mustfun.github.io</url>
 
 
     <dependencies>
@@ -65,14 +65,10 @@
         </dependency>
 
         <dependency>
-            <groupId>com.dangdang</groupId>
+            <groupId>io.shardingjdbc</groupId>
             <artifactId>sharding-jdbc-core</artifactId>
         </dependency>
 
-        <!--<dependency>
-            <groupId>com.paypal.springboot</groupId>
-            <artifactId>resteasy-spring-boot-starter</artifactId>
-        </dependency>-->
 
         <dependency>
         <groupId>com.alibaba</groupId>

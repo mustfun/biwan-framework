@@ -12,7 +12,7 @@
     <packaging>jar</packaging>
 
     <name>${artifactId}</name>
-    <url>http://www.biwan.com</url>
+    <url>mustfun.github.io</url>
 
 
     <dependencies>
@@ -33,14 +33,6 @@
             <artifactId>${rootArtifactId}-dao</artifactId>
             <version>${version}</version>
         </dependency>
-
-
-        <!--resteasy集成，这里直接使用开源JBOSs的resteasy框架,paypay公司对其进行了整合-->
-        <!--<dependency>
-            <groupId>com.paypal.springboot</groupId>
-            <artifactId>resteasy-spring-boot-starter</artifactId>
-        </dependency>-->
-
 
 
 
