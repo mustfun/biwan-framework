@@ -12,7 +12,7 @@
     <packaging>jar</packaging>
 
     <name>${artifactId}</name>
-    <url>http://www.biwan.com</url>
+    <url>mustfun.github.io</url>
 
     <dependencies>
         <dependency>
