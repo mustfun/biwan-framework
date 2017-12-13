@@ -4,7 +4,7 @@
         <artifactId>${rootArtifactId}-parent</artifactId>
         <groupId>${groupId}</groupId>
         <version>${version}</version>
-        <relativePath>../${artifactId}-parent/pom.xml</relativePath>
+        <relativePath>../${rootArtifactId}-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
