@@ -67,3 +67,8 @@ spring:
  cache:
    jcache:
      config: classpath:ehcache.xml
+
+#关闭healthcheck
+endpoints:
+  health:
+      enabled: false
