@@ -1,6 +1,6 @@
-package ${groupId}.facade;
+package ${groupId}.biz.facade;
 
-import ${groupId}.model.City;
+import ${groupId}.model.po.City;
 import ${groupId}.support.result.BaseResult;
 
 /**

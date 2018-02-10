@@ -1,4 +1,4 @@
-package ${groupId}.result;
+package ${groupId}.model.result;
 
 import java.io.Serializable;
 

@@ -1,7 +1,7 @@
-package ${groupId}.facade.impl;
+package ${groupId}.biz.facade.impl;
 
-import ${groupId}.facade.CityController;
-import ${groupId}.model.City;
+import ${groupId}.biz.facade.CityController;
+import ${groupId}.model.po.City;
 import ${groupId}.service.CityService;
 import ${groupId}.support.result.BaseResult;
 import org.springframework.beans.factory.annotation.Autowired;

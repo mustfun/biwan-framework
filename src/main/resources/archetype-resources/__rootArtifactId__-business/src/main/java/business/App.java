@@ -1,4 +1,4 @@
-package ${groupId};
+package ${groupId}.business;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-package ${groupId};
+package ${groupId}.facade;
 
 /**
  * Hello world!

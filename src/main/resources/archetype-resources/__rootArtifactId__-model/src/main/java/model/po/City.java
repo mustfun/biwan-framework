@@ -1,4 +1,4 @@
-package ${groupId}.model;
+package ${groupId}.model.po;
 
 public class City {
     /**

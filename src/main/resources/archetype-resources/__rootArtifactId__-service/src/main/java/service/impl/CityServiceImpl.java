@@ -1,7 +1,7 @@
 package ${groupId}.service.impl;
 
 import ${groupId}.dao.mapper.CityMapper;
-import ${groupId}.model.City;
+import ${groupId}.model.po.City;
 import ${groupId}.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

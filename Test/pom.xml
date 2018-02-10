@@ -10,4 +10,7 @@
  
   
   
+  <modules>
+    <module>product</module>
+  </modules>
 </project>
