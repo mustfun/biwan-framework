@@ -1,7 +1,7 @@
 package ${package}.service.impl;
 
 import ${package}.dao.mapper.OrderMapper;
-import ${package}.model.Order;
+import ${package}.model.po.Order;
 import ${package}.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

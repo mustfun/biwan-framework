@@ -1,6 +1,6 @@
 package ${package}.service;
 
-import ${package}.model.Order;
+import ${package}.model.po.Order;
 
 import java.util.List;
 

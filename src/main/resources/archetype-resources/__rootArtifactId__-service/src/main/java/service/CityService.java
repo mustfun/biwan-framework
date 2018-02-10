@@ -1,6 +1,6 @@
 package ${package}.service;
 
-import ${package}.model.City;
+import ${package}.model.po.City;
 
 /**
  * Created by dengzhiyuan on 2017/4/6.

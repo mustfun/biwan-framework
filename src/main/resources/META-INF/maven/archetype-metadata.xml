@@ -15,7 +15,7 @@
         <defaultValue>product</defaultValue>
     </requiredProperty>
     <requiredProperty key="package">
-        <defaultValue>${groupId}.${artifactId}</defaultValue>
+        <defaultValue>${groupId}</defaultValue>
     </requiredProperty>
     <requiredProperty key="version">
         <defaultValue>1.0.0-SNAPSHOT</defaultValue>
