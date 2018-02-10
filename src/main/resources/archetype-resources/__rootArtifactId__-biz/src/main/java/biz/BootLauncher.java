@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @ComponentScan(basePackages = {"${package}"})
-@MapperScan("${package}")
 public class BootLauncher {
     public static void main(String[] args) {
         SpringApplication springApplication = new SpringApplication(BootLauncher.class);

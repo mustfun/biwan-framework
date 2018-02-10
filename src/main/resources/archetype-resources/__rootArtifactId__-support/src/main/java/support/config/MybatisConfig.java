@@ -28,14 +28,14 @@ import javax.sql.DataSource;
 //但是在这里面可以配置sqlSessionFactroy等，事务等
 @ImportResource("classpath:/mybatis/spring-mybatis.xml")
 
-//会去扫描mapper下面的文件夹，已经配置在了application.properties中，所以也不是很需要
+//会去扫描mapper下面的文件夹 ,  如果mapper所在的包名和 BootLauncher扫描包名一直也可以不配
 //@MapperScan(basePackages = "${groupId}.mapper")
 
 
 @Configuration
 @AutoConfigureAfter(MasterSlaveDataSourceConfig.class)  //读写分离的时候请打开
 //@AutoConfigureAfter(ShardingDataSouceConfig.class) // 分库分表的时候请打开
-//@MapperScan()不用这种方式
+@MapperScan("${package.dao.mapper}")
 public class MybatisConfig {
 
     Logger LOG= LoggerFactory.getLogger(MybatisConfig.class);

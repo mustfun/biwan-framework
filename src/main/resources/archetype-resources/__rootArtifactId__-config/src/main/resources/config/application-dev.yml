@@ -50,6 +50,7 @@ mybatis:
     config-location: classpath:mybatis/mybatis-config.xml
     mapper-locations: classpath*:/mybatis/mapper/*Mapper.xml
     type-aliases-package: ${package}.dao.mapper
+    # type-handlers-package: ${package}.dao.mapper
 server:
     port: 8080
 
