@@ -9,7 +9,7 @@
 1. 到根目录  
    mvn clean  install
 2. 到Test目录执行下面语句  
-   mvn archetype:generate -DarchetypeGroupId=com.itar.soa -DarchetypeArtifactId=biwan-framework -DarchetypeVersion=2.0.0-SNAPSHOT -DgroupId=com.itar.soa -DartifactId=product -e
+   mvn archetype:generate -DarchetypeGroupId=com.itar.soa -DarchetypeArtifactId=biwan-framework -DarchetypeVersion=2.0.0-SNAPSHOT -DgroupId=com.itar.soa -DartifactId=product -DarchetypeCatalog=internal -e
 
 
 这样就会在Test里面生成一个叫做product-biz的项目

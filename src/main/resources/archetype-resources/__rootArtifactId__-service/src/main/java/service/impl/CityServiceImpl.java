@@ -1,8 +1,8 @@
-package ${groupId}.service.impl;
+package ${package}.service.impl;
 
-import ${groupId}.dao.mapper.CityMapper;
-import ${groupId}.model.po.City;
-import ${groupId}.service.CityService;
+import ${package}.dao.mapper.CityMapper;
+import ${package}.model.po.City;
+import ${package}.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

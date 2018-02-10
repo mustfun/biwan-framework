@@ -1,8 +1,8 @@
-package ${groupId}.service.impl;
+package ${package}.service.impl;
 
-import ${groupId}.dao.mapper.OrderMapper;
-import ${groupId}.model.Order;
-import ${groupId}.service.OrderService;
+import ${package}.dao.mapper.OrderMapper;
+import ${package}.model.Order;
+import ${package}.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

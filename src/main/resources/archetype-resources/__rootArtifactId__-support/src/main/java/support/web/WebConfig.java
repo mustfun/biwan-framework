@@ -1,4 +1,4 @@
-package ${groupId}.support.web;
+package ${package}.support.web;
 
 import com.alibaba.fastjson.parser.Feature;
 import com.alibaba.fastjson.serializer.SerializerFeature;

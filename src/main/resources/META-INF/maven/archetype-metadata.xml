@@ -14,6 +14,12 @@
     <requiredProperty key="artifactId">
         <defaultValue>product</defaultValue>
     </requiredProperty>
+    <requiredProperty key="package">
+        <defaultValue>${groupId}.${artifactId}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="version">
+        <defaultValue>1.0.0-SNAPSHOT</defaultValue>
+    </requiredProperty>
 </requiredProperties>
 
     <!--这里生成一些特殊的文件，比如说.gitignore-->

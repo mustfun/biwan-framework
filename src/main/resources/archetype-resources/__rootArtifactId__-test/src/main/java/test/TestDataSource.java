@@ -1,4 +1,4 @@
-package ${groupId}.test;
+package ${package}.test;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.junit.Test;

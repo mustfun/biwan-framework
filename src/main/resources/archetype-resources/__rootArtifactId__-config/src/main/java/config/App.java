@@ -1,4 +1,4 @@
-package ${groupId}.config;
+package ${package}.config;
 
 /**
  * Hello world!

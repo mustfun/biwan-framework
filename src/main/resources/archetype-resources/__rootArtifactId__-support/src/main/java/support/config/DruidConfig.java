@@ -1,4 +1,4 @@
-package ${groupId}.support.config;
+package ${package}.support.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

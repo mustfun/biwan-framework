@@ -1,6 +1,6 @@
-package ${groupId}.service;
+package ${package}.service;
 
-import ${groupId}.model.City;
+import ${package}.model.City;
 
 /**
  * Created by dengzhiyuan on 2017/4/6.

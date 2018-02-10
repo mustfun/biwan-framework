@@ -1,4 +1,4 @@
-package ${groupId}.support.config;
+package ${package}.support.config;
 
 import io.shardingjdbc.core.api.MasterSlaveDataSourceFactory;
 import io.shardingjdbc.core.api.config.MasterSlaveRuleConfiguration;

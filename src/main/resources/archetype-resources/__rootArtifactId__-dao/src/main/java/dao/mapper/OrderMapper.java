@@ -1,6 +1,6 @@
-package ${groupId}.dao.mapper;
+package ${package}.dao.mapper;
 
-import ${groupId}.model.Order;
+import ${package}.model.Order;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

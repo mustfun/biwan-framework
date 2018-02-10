@@ -1,6 +1,6 @@
-package ${groupId}.service;
+package ${package}.service;
 
-import ${groupId}.model.Order;
+import ${package}.model.Order;
 
 import java.util.List;
 

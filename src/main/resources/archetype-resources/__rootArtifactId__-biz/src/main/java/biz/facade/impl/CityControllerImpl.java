@@ -1,9 +1,9 @@
-package ${groupId}.biz.facade.impl;
+package ${package}.biz.facade.impl;
 
-import ${groupId}.biz.facade.CityController;
-import ${groupId}.model.po.City;
-import ${groupId}.service.CityService;
-import ${groupId}.support.result.BaseResult;
+import ${package}.biz.facade.CityController;
+import ${package}.model.po.City;
+import ${package}.service.CityService;
+import ${package}.support.result.BaseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;

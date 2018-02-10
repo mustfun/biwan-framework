@@ -1,7 +1,7 @@
-package ${groupId}.biz.facade;
+package ${package}.biz.facade;
 
-import ${groupId}.model.po.City;
-import ${groupId}.support.result.BaseResult;
+import ${package}.model.po.City;
+import ${package}.support.result.BaseResult;
 
 /**
  * Created by dengzhiyuan on 2017/4/6.

@@ -1,6 +1,6 @@
-package ${groupId}.support.transcation;
+package ${package}.support.transcation;
 
-import ${groupId}.support.config.MasterSlaveDataSourceConfig;
+import ${package}.support.config.MasterSlaveDataSourceConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

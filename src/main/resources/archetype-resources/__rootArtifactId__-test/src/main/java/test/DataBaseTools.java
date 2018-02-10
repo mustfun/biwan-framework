@@ -1,4 +1,4 @@
-package ${groupId}.test;
+package ${package}.test;
 
 import com.alibaba.druid.filter.config.ConfigTools;
 import org.junit.Test;

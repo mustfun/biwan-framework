@@ -1,4 +1,4 @@
-package ${groupId}.model.po;
+package ${package}.model.po;
 
 import java.util.Date;
 
