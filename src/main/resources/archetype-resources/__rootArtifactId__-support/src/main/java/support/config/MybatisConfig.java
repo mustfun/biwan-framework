@@ -14,6 +14,8 @@ import org.springframework.context.annotation.ImportResource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
+import org.mybatis.spring.annotation.MapperScan;
+
 
 import javax.annotation.Resource;
 import javax.sql.DataSource;
