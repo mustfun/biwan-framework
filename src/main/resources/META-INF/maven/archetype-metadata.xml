@@ -28,6 +28,8 @@
             <directory/>
             <includes>
                 <include>.*ignore</include>
+                <include>.travis</include>
+                <include>README.md</include>
             </includes>
         </fileSet>
     </fileSets>
